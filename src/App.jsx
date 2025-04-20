@@ -60,7 +60,7 @@ const App = () => {
 
       {filteredTours.length === 0 ? (
         <div className="no-tours">
-          <p>Oops! Nothing to display. Please refresh to reload the tours.</p>
+          <p>No tours left. Refresh to reload.</p>
           <button onClick={handleRefresh} className="refresh-btn">
             Refresh
           </button>
